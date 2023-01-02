@@ -48,6 +48,7 @@ app.use(mongoSanitize(
     }
 ))
 
+
 const store = MongoDBStore.create({
     mongoUrl: dbUrl,
     secret: 'that is good',
